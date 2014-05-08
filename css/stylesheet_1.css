@@ -1,0 +1,60 @@
+.header_area {
+  background: yellow;
+  margin: 5px;
+  height: 100px; }
+
+.ai1_background {
+  background: url("pw_maze_white.png"); }
+
+.content_1 {
+  margin: 15px 0px;
+  padding: 10px;
+  border: 2px solid #000;
+  height: 461px;
+  background: white; }
+
+#tech_home_menu_icon {
+  background: url("tech_home_menu_icon.png");
+  background-repeat: no-repeat; }
+
+#sports_home_menu_icon {
+  background: url("sports_home_menu_icon.png");
+  background-repeat: no-repeat; }
+
+#auto_home_menu_icon {
+  background: url("auto_home_menu_icon.png");
+  background-repeat: no-repeat; }
+
+#bank_home_menu_icon {
+  background: url("bank_home_menu_icon.png");
+  background-repeat: no-repeat; }
+
+#restaurant_home_menu_icon {
+  background: url("restaurant_home_menu_icon.png");
+  background-repeat: no-repeat; }
+
+#ai1_logo {
+  background: url("../images/ai1_logo.png");
+  float: left;
+  width: 300px;
+  height: 100px; }
+
+.ad_space_1 {
+  background: url("../images/ads/ad_1.gif");
+  width: 728px;
+  height: 90px;
+  margin: auto;
+  margin-bottom: 20px;
+  float: right; }
+
+.ad_space_2 {
+  background: url("../images/ads/ad_2.png");
+  float: right;
+  width: 300px;
+  height: 250px; }
+
+.ad_space_3 {
+  background: url("../images/ads/ad_2.png");
+  float: left;
+  width: 300px;
+  height: 250px; }

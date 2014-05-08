@@ -1,0 +1,606 @@
+2014/03/23 23:58:09 [error] [php] include(TbArray.php): failed to open stream: No such file or directory (/var/www/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /var/www/yii/ai1/protected/extensions/bootstrap/helpers/TbHtml.php(4134): spl_autoload_call()
+#1 /var/www/yii/ai1/protected/views/site/index.php(30): carousel()
+#2 /var/www/yii/framework/web/CBaseController.php(126): require()
+#3 /var/www/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#4 /var/www/yii/framework/web/CController.php(869): SiteController->renderFile()
+#5 /var/www/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#6 /var/www/yii/ai1/protected/controllers/SiteController.php(32): SiteController->render()
+#7 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#8 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#9 /var/www/yii/framework/web/CController.php(286): SiteController->runAction()
+#10 /var/www/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#11 /var/www/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#12 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#13 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /var/www/yii/ai1/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/ai1/index.php/site/index
+in /var/www/yii/ai1/protected/extensions/bootstrap/helpers/TbHtml.php (4134)
+in /var/www/yii/ai1/protected/views/site/index.php (30)
+in /var/www/yii/ai1/protected/controllers/SiteController.php (32)
+2014/03/23 23:58:45 [error] [php] include(TbArray.php): failed to open stream: No such file or directory (/var/www/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /var/www/yii/ai1/protected/extensions/bootstrap/helpers/TbHtml.php(4134): spl_autoload_call()
+#1 /var/www/yii/ai1/protected/views/site/index.php(30): carousel()
+#2 /var/www/yii/framework/web/CBaseController.php(126): require()
+#3 /var/www/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#4 /var/www/yii/framework/web/CController.php(869): SiteController->renderFile()
+#5 /var/www/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#6 /var/www/yii/ai1/protected/controllers/SiteController.php(32): SiteController->render()
+#7 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#8 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#9 /var/www/yii/framework/web/CController.php(286): SiteController->runAction()
+#10 /var/www/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#11 /var/www/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#12 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#13 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /var/www/yii/ai1/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/ai1/index.php/site/index
+in /var/www/yii/ai1/protected/extensions/bootstrap/helpers/TbHtml.php (4134)
+in /var/www/yii/ai1/protected/views/site/index.php (30)
+in /var/www/yii/ai1/protected/controllers/SiteController.php (32)
+2014/03/23 23:58:46 [error] [php] include(TbArray.php): failed to open stream: No such file or directory (/var/www/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /var/www/yii/ai1/protected/extensions/bootstrap/helpers/TbHtml.php(4134): spl_autoload_call()
+#1 /var/www/yii/ai1/protected/views/site/index.php(30): carousel()
+#2 /var/www/yii/framework/web/CBaseController.php(126): require()
+#3 /var/www/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#4 /var/www/yii/framework/web/CController.php(869): SiteController->renderFile()
+#5 /var/www/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#6 /var/www/yii/ai1/protected/controllers/SiteController.php(32): SiteController->render()
+#7 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#8 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#9 /var/www/yii/framework/web/CController.php(286): SiteController->runAction()
+#10 /var/www/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#11 /var/www/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#12 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#13 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /var/www/yii/ai1/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/ai1/index.php/site/index
+in /var/www/yii/ai1/protected/extensions/bootstrap/helpers/TbHtml.php (4134)
+in /var/www/yii/ai1/protected/views/site/index.php (30)
+in /var/www/yii/ai1/protected/controllers/SiteController.php (32)
+2014/03/24 00:01:59 [error] [php] include(TbArray.php): failed to open stream: No such file or directory (/var/www/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /var/www/yii/ai1/protected/extensions/bootstrap/helpers/TbHtml.php(4326): spl_autoload_call()
+#1 /var/www/yii/ai1/protected/extensions/bootstrap/helpers/TbHtml.php(2308): addSpanClass()
+#2 /var/www/yii/ai1/protected/extensions/bootstrap/helpers/TbHtml.php(1455): normalizeInputOptions()
+#3 /var/www/yii/ai1/protected/extensions/bootstrap/helpers/TbHtml.php(723): textInputField()
+#4 /var/www/yii/ai1/protected/views/site/index.php(29): textField()
+#5 /var/www/yii/framework/web/CBaseController.php(126): require()
+#6 /var/www/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#7 /var/www/yii/framework/web/CController.php(869): SiteController->renderFile()
+#8 /var/www/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#9 /var/www/yii/ai1/protected/controllers/SiteController.php(32): SiteController->render()
+#10 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#11 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#12 /var/www/yii/framework/web/CController.php(286): SiteController->runAction()
+#13 /var/www/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#14 /var/www/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#15 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /var/www/yii/ai1/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/ai1/index.php/site/index
+in /var/www/yii/ai1/protected/extensions/bootstrap/helpers/TbHtml.php (4326)
+in /var/www/yii/ai1/protected/extensions/bootstrap/helpers/TbHtml.php (2308)
+in /var/www/yii/ai1/protected/extensions/bootstrap/helpers/TbHtml.php (1455)
+2014/03/24 00:05:32 [error] [php] include(TbArray.php): failed to open stream: No such file or directory (/var/www/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /var/www/yii/ai1/protected/extensions/bootstrap/helpers/TbHtml.php(4326): spl_autoload_call()
+#1 /var/www/yii/ai1/protected/extensions/bootstrap/helpers/TbHtml.php(2308): addSpanClass()
+#2 /var/www/yii/ai1/protected/extensions/bootstrap/helpers/TbHtml.php(1455): normalizeInputOptions()
+#3 /var/www/yii/ai1/protected/extensions/bootstrap/helpers/TbHtml.php(723): textInputField()
+#4 /var/www/yii/ai1/protected/views/site/index.php(29): textField()
+#5 /var/www/yii/framework/web/CBaseController.php(126): require()
+#6 /var/www/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#7 /var/www/yii/framework/web/CController.php(869): SiteController->renderFile()
+#8 /var/www/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#9 /var/www/yii/ai1/protected/controllers/SiteController.php(32): SiteController->render()
+#10 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#11 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#12 /var/www/yii/framework/web/CController.php(286): SiteController->runAction()
+#13 /var/www/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#14 /var/www/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#15 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /var/www/yii/ai1/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/ai1/index.php/site/index
+in /var/www/yii/ai1/protected/extensions/bootstrap/helpers/TbHtml.php (4326)
+in /var/www/yii/ai1/protected/extensions/bootstrap/helpers/TbHtml.php (2308)
+in /var/www/yii/ai1/protected/extensions/bootstrap/helpers/TbHtml.php (1455)
+2014/03/24 00:07:42 [error] [php] include(TbArray.php): failed to open stream: No such file or directory (/var/www/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /var/www/yii/ai1/protected/extensions/bootstrap/helpers/TbHtml.php(4326): spl_autoload_call()
+#1 /var/www/yii/ai1/protected/extensions/bootstrap/helpers/TbHtml.php(2308): addSpanClass()
+#2 /var/www/yii/ai1/protected/extensions/bootstrap/helpers/TbHtml.php(1455): normalizeInputOptions()
+#3 /var/www/yii/ai1/protected/extensions/bootstrap/helpers/TbHtml.php(723): textInputField()
+#4 /var/www/yii/ai1/protected/views/site/index.php(29): textField()
+#5 /var/www/yii/framework/web/CBaseController.php(126): require()
+#6 /var/www/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#7 /var/www/yii/framework/web/CController.php(869): SiteController->renderFile()
+#8 /var/www/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#9 /var/www/yii/ai1/protected/controllers/SiteController.php(32): SiteController->render()
+#10 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#11 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#12 /var/www/yii/framework/web/CController.php(286): SiteController->runAction()
+#13 /var/www/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#14 /var/www/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#15 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /var/www/yii/ai1/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/ai1/index.php/site/index
+in /var/www/yii/ai1/protected/extensions/bootstrap/helpers/TbHtml.php (4326)
+in /var/www/yii/ai1/protected/extensions/bootstrap/helpers/TbHtml.php (2308)
+in /var/www/yii/ai1/protected/extensions/bootstrap/helpers/TbHtml.php (1455)
+2014/03/24 00:09:13 [error] [php] include(TbArray.php): failed to open stream: No such file or directory (/var/www/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /var/www/yii/ai1/protected/extensions/bootstrap/helpers/TbHtml.php(4326): spl_autoload_call()
+#1 /var/www/yii/ai1/protected/extensions/bootstrap/helpers/TbHtml.php(632): addSpanClass()
+#2 /var/www/yii/ai1/protected/extensions/bootstrap/helpers/TbHtml.php(430): tag()
+#3 /var/www/yii/ai1/protected/views/site/index.php(25): lead()
+#4 /var/www/yii/framework/web/CBaseController.php(126): require()
+#5 /var/www/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#6 /var/www/yii/framework/web/CController.php(869): SiteController->renderFile()
+#7 /var/www/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#8 /var/www/yii/ai1/protected/controllers/SiteController.php(32): SiteController->render()
+#9 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#10 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#11 /var/www/yii/framework/web/CController.php(286): SiteController->runAction()
+#12 /var/www/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#13 /var/www/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#14 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#15 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#16 /var/www/yii/ai1/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/ai1/index.php/site/index
+in /var/www/yii/ai1/protected/extensions/bootstrap/helpers/TbHtml.php (4326)
+in /var/www/yii/ai1/protected/extensions/bootstrap/helpers/TbHtml.php (632)
+in /var/www/yii/ai1/protected/extensions/bootstrap/helpers/TbHtml.php (430)
+2014/03/24 00:22:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "holder.js".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('holder.js')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('holder.js')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/holder.js/...')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/ai1/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/ai1/index.php/site/holder.js/830x477
+HTTP_REFERER=http://127.0.0.1/yii/ai1/index.php/site/index
+---
+2014/03/24 00:32:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "cccc".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('cccc')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('cccc')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/cccc')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/ai1/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/ai1/index.php/site/cccc
+HTTP_REFERER=http://127.0.0.1/yii/ai1/index.php/site/index
+---
+2014/03/24 00:32:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "holder.js".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('holder.js')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('holder.js')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/holder.js/...')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/ai1/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/ai1/index.php/site/holder.js/830x477
+HTTP_REFERER=http://127.0.0.1/yii/ai1/index.php/site/index
+---
+2014/03/24 00:39:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "cccc".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('cccc')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('cccc')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/cccc')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/ai1/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/ai1/index.php/site/cccc
+HTTP_REFERER=http://127.0.0.1/yii/ai1/index.php/site/index
+---
+2014/03/24 00:39:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "holder.js".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('holder.js')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('holder.js')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/holder.js/...')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/ai1/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/ai1/index.php/site/holder.js/830x477
+HTTP_REFERER=http://127.0.0.1/yii/ai1/index.php/site/index
+---
+2014/03/24 00:39:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "cccc".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('cccc')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('cccc')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/cccc')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/ai1/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/ai1/index.php/site/cccc
+HTTP_REFERER=http://127.0.0.1/yii/ai1/index.php/site/index
+---
+2014/03/24 00:39:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "holder.js".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('holder.js')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('holder.js')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/holder.js/...')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/ai1/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/ai1/index.php/site/holder.js/830x477
+HTTP_REFERER=http://127.0.0.1/yii/ai1/index.php/site/index
+---
+2014/03/24 00:40:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "holder.js".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('holder.js')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('holder.js')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/holder.js/...')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/ai1/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/ai1/index.php/site/holder.js/830x477
+HTTP_REFERER=http://127.0.0.1/yii/ai1/index.php/site/index
+---
+2014/03/24 00:40:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "cccc".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('cccc')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('cccc')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/cccc')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/ai1/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/ai1/index.php/site/cccc
+HTTP_REFERER=http://127.0.0.1/yii/ai1/index.php/site/index
+---
+2014/03/24 00:41:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "b2014.jpg".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('b2014.jpg')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('b2014.jpg')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/b2014.jpg')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/ai1/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/ai1/index.php/site/b2014.jpg
+HTTP_REFERER=http://127.0.0.1/yii/ai1/index.php/site/index
+---
+2014/03/24 00:41:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "holder.js".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('holder.js')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('holder.js')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/holder.js/...')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/ai1/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/ai1/index.php/site/holder.js/830x477
+HTTP_REFERER=http://127.0.0.1/yii/ai1/index.php/site/index
+---
+2014/03/24 00:42:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "holder.js".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('holder.js')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('holder.js')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/holder.js/...')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/ai1/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/ai1/index.php/site/holder.js/830x477
+HTTP_REFERER=http://127.0.0.1/yii/ai1/index.php/site/index
+---
+2014/03/24 00:42:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "b2014.jpg".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('b2014.jpg')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('b2014.jpg')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/b2014.jpg')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/ai1/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/ai1/index.php/site/b2014.jpg
+HTTP_REFERER=http://127.0.0.1/yii/ai1/index.php/site/index
+---
+2014/03/24 01:29:15 [error] [php] include(TbWidget.php): failed to open stream: No such file or directory (/var/www/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /var/www/yii/ai1/protected/extensions/bootstrap/widgets/TbCollapse.php(54): spl_autoload_call()
+#1 /var/www/yii/framework/web/CBaseController.php(147): TbCollapse->init()
+#2 /var/www/yii/framework/web/CBaseController.php(172): SiteController->createWidget()
+#3 /var/www/yii/ai1/protected/extensions/bootstrap/widgets/TbNavbar.php(111): SiteController->widget()
+#4 /var/www/yii/framework/web/CBaseController.php(173): TbNavbar->run()
+#5 /var/www/yii/ai1/protected/views/layouts/main.php(52): SiteController->widget()
+#6 /var/www/yii/framework/web/CBaseController.php(126): require()
+#7 /var/www/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#8 /var/www/yii/framework/web/widgets/CContentDecorator.php(76): SiteController->renderFile()
+#9 /var/www/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#10 /var/www/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#11 /var/www/yii/framework/web/CBaseController.php(206): CContentDecorator->run()
+#12 /var/www/yii/framework/web/CBaseController.php(300): SiteController->endWidget()
+#13 /var/www/yii/ai1/protected/views/layouts/column1.php(6): SiteController->endContent()
+#14 /var/www/yii/framework/web/CBaseController.php(126): require()
+#15 /var/www/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#16 /var/www/yii/framework/web/CController.php(784): SiteController->renderFile()
+#17 /var/www/yii/ai1/protected/controllers/SiteController.php(32): SiteController->render()
+#18 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#19 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#20 /var/www/yii/framework/web/CController.php(286): SiteController->runAction()
+#21 /var/www/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#22 /var/www/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#23 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#24 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#25 /var/www/yii/ai1/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/ai1/index.php/site/index
+in /var/www/yii/ai1/protected/extensions/bootstrap/widgets/TbCollapse.php (54)
+in /var/www/yii/ai1/protected/extensions/bootstrap/widgets/TbNavbar.php (111)
+in /var/www/yii/ai1/protected/views/layouts/main.php (52)
+2014/03/24 01:30:44 [error] [php] include(TbWidget.php): failed to open stream: No such file or directory (/var/www/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /var/www/yii/ai1/protected/extensions/bootstrap/widgets/TbCollapse.php(54): spl_autoload_call()
+#1 /var/www/yii/framework/web/CBaseController.php(147): TbCollapse->init()
+#2 /var/www/yii/framework/web/CBaseController.php(172): SiteController->createWidget()
+#3 /var/www/yii/ai1/protected/extensions/bootstrap/widgets/TbNavbar.php(111): SiteController->widget()
+#4 /var/www/yii/framework/web/CBaseController.php(173): TbNavbar->run()
+#5 /var/www/yii/ai1/protected/views/layouts/main.php(52): SiteController->widget()
+#6 /var/www/yii/framework/web/CBaseController.php(126): require()
+#7 /var/www/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#8 /var/www/yii/framework/web/widgets/CContentDecorator.php(76): SiteController->renderFile()
+#9 /var/www/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#10 /var/www/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#11 /var/www/yii/framework/web/CBaseController.php(206): CContentDecorator->run()
+#12 /var/www/yii/framework/web/CBaseController.php(300): SiteController->endWidget()
+#13 /var/www/yii/ai1/protected/views/layouts/column1.php(6): SiteController->endContent()
+#14 /var/www/yii/framework/web/CBaseController.php(126): require()
+#15 /var/www/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#16 /var/www/yii/framework/web/CController.php(784): SiteController->renderFile()
+#17 /var/www/yii/ai1/protected/controllers/SiteController.php(32): SiteController->render()
+#18 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#19 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#20 /var/www/yii/framework/web/CController.php(286): SiteController->runAction()
+#21 /var/www/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#22 /var/www/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#23 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#24 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#25 /var/www/yii/ai1/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/ai1/index.php/site/index
+in /var/www/yii/ai1/protected/extensions/bootstrap/widgets/TbCollapse.php (54)
+in /var/www/yii/ai1/protected/extensions/bootstrap/widgets/TbNavbar.php (111)
+in /var/www/yii/ai1/protected/views/layouts/main.php (52)
+2014/03/26 14:27:27 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "tech_home".' in /var/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/yii/ai1/protected/views/site/index.php(43): CController->renderPartial('tech_home')
+#1 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/yii/ai...')
+#2 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/yii/ai...', NULL, true)
+#3 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/yii/ai...', NULL, true)
+#4 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#5 /var/www/yii/ai1/protected/controllers/SiteController.php(32): CController->render('index')
+#6 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#11 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#12 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /var/www/yii/ai1/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii/ai1/
+HTTP_REFERER=http://127.0.0.1/
+---
+2014/03/26 15:26:36 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "tech_home".' in /var/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/yii/ai1/protected/views/site/index.php(43): CController->renderPartial('tech_home')
+#1 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/yii/ai...')
+#2 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/yii/ai...', NULL, true)
+#3 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/yii/ai...', NULL, true)
+#4 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#5 /var/www/yii/ai1/protected/controllers/SiteController.php(41): CController->render('index')
+#6 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#11 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#12 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /var/www/yii/ai1/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii/ai1/
+HTTP_REFERER=http://127.0.0.1/
+---
+2014/03/26 15:26:58 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "testing_ai1".' in /var/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/yii/ai1/protected/views/site/index.php(43): CController->renderPartial('testing_ai1')
+#1 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/yii/ai...')
+#2 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/yii/ai...', NULL, true)
+#3 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/yii/ai...', NULL, true)
+#4 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#5 /var/www/yii/ai1/protected/controllers/SiteController.php(41): CController->render('index')
+#6 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#11 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#12 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /var/www/yii/ai1/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii/ai1/
+HTTP_REFERER=http://127.0.0.1/
+---
+2014/03/26 15:26:59 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "testing_ai1".' in /var/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/yii/ai1/protected/views/site/index.php(43): CController->renderPartial('testing_ai1')
+#1 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/yii/ai...')
+#2 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/yii/ai...', NULL, true)
+#3 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/yii/ai...', NULL, true)
+#4 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#5 /var/www/yii/ai1/protected/controllers/SiteController.php(41): CController->render('index')
+#6 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#11 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#12 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /var/www/yii/ai1/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii/ai1/
+HTTP_REFERER=http://127.0.0.1/
+---
+2014/03/26 15:26:59 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "testing_ai1".' in /var/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/yii/ai1/protected/views/site/index.php(43): CController->renderPartial('testing_ai1')
+#1 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/yii/ai...')
+#2 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/yii/ai...', NULL, true)
+#3 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/yii/ai...', NULL, true)
+#4 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#5 /var/www/yii/ai1/protected/controllers/SiteController.php(41): CController->render('index')
+#6 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#11 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#12 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /var/www/yii/ai1/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii/ai1/
+HTTP_REFERER=http://127.0.0.1/
+---
+2014/03/26 15:27:00 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "testing_ai1".' in /var/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/yii/ai1/protected/views/site/index.php(43): CController->renderPartial('testing_ai1')
+#1 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/yii/ai...')
+#2 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/yii/ai...', NULL, true)
+#3 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/yii/ai...', NULL, true)
+#4 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#5 /var/www/yii/ai1/protected/controllers/SiteController.php(41): CController->render('index')
+#6 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#11 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#12 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /var/www/yii/ai1/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii/ai1/
+HTTP_REFERER=http://127.0.0.1/
+---
+2014/03/26 15:27:30 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "testing_ai1".' in /var/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/yii/ai1/protected/views/site/index.php(43): CController->renderPartial('testing_ai1')
+#1 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/yii/ai...')
+#2 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/yii/ai...', NULL, true)
+#3 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/yii/ai...', NULL, true)
+#4 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#5 /var/www/yii/ai1/protected/controllers/SiteController.php(41): CController->render('index')
+#6 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#11 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#12 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /var/www/yii/ai1/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii/ai1/
+HTTP_REFERER=http://127.0.0.1/
+---
+2014/03/26 15:28:17 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "testingai1".' in /var/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/yii/ai1/protected/views/site/index.php(43): CController->renderPartial('testingai1')
+#1 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/yii/ai...')
+#2 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/yii/ai...', NULL, true)
+#3 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/yii/ai...', NULL, true)
+#4 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#5 /var/www/yii/ai1/protected/controllers/SiteController.php(41): CController->render('index')
+#6 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#11 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#12 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /var/www/yii/ai1/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii/ai1/
+HTTP_REFERER=http://127.0.0.1/
+---
+2014/03/26 15:28:18 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "testingai1".' in /var/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/yii/ai1/protected/views/site/index.php(43): CController->renderPartial('testingai1')
+#1 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/yii/ai...')
+#2 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/yii/ai...', NULL, true)
+#3 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/yii/ai...', NULL, true)
+#4 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#5 /var/www/yii/ai1/protected/controllers/SiteController.php(41): CController->render('index')
+#6 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#11 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#12 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /var/www/yii/ai1/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii/ai1/
+HTTP_REFERER=http://127.0.0.1/
+---
+2014/03/26 15:28:18 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "testingai1".' in /var/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/yii/ai1/protected/views/site/index.php(43): CController->renderPartial('testingai1')
+#1 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/yii/ai...')
+#2 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/yii/ai...', NULL, true)
+#3 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/yii/ai...', NULL, true)
+#4 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#5 /var/www/yii/ai1/protected/controllers/SiteController.php(41): CController->render('index')
+#6 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#11 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#12 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /var/www/yii/ai1/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii/ai1/
+HTTP_REFERER=http://127.0.0.1/
+---
+2014/03/26 15:28:18 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "testingai1".' in /var/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/yii/ai1/protected/views/site/index.php(43): CController->renderPartial('testingai1')
+#1 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/yii/ai...')
+#2 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/yii/ai...', NULL, true)
+#3 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/yii/ai...', NULL, true)
+#4 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#5 /var/www/yii/ai1/protected/controllers/SiteController.php(41): CController->render('index')
+#6 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#11 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#12 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /var/www/yii/ai1/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii/ai1/
+HTTP_REFERER=http://127.0.0.1/
+---
+2014/03/26 15:29:47 [error] [php] Undefined variable: model (/var/www/yii/ai1/protected/views/site/contact.php:38)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yii/ai1/protected/views/site/index.php(43): SiteController->renderPartial()
+#2 /var/www/yii/framework/web/CBaseController.php(126): require()
+#3 /var/www/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#4 /var/www/yii/framework/web/CController.php(869): SiteController->renderFile()
+#5 /var/www/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#6 /var/www/yii/ai1/protected/controllers/SiteController.php(33): SiteController->render()
+#7 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#8 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#9 /var/www/yii/framework/web/CController.php(286): SiteController->runAction()
+#10 /var/www/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#11 /var/www/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#12 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#13 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /var/www/yii/ai1/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/ai1/
+in /var/www/yii/ai1/protected/views/site/contact.php (38)
+in /var/www/yii/ai1/protected/views/site/index.php (43)
+in /var/www/yii/ai1/protected/controllers/SiteController.php (33)

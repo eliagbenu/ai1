@@ -1,0 +1,91 @@
+$background_image : "pw_maze_white.png";
+$tech_home_menu_icon: "tech_home_menu_icon.png";
+$sports_home_menu_icon: "sports_home_menu_icon.png";
+$auto_home_menu_icon: "auto_home_menu_icon.png";
+$restaurant_home_menu_icon: "restaurant_home_menu_icon.png";
+$bank_home_menu_icon: "bank_home_menu_icon.png";
+
+//ads 
+$ad_1 : "../images/ads/ad_1.gif";
+$ad_2 : "../images/ads/ad_2.png";
+$ad_3 : "../images/ads/ad_3.png";
+
+
+$ai1_logo:"../images/ai1_logo.png";
+
+//site colors
+$color_1:yellow;
+$color_2:#fff;
+
+@mixin width_for_300_x_250_banner_ad{
+width:300px;height:250px;  
+}
+
+
+.header_area{
+background: $color_1;
+margin:5px;height: 100px;  
+}
+
+.ai1_background{
+  background:url($background_image);
+}
+
+
+.content_1{
+margin:15px 0px;
+padding:10px;
+border:2px solid #000;
+height:461px;
+background: $color_2;  
+} 
+
+#tech_home_menu_icon{
+  background:url($tech_home_menu_icon);  
+  background-repeat:no-repeat;
+}
+
+
+#sports_home_menu_icon{
+  background:url($sports_home_menu_icon);  
+  background-repeat:no-repeat;
+}
+
+
+#auto_home_menu_icon{
+  background:url($auto_home_menu_icon);  
+  background-repeat:no-repeat;
+}
+
+
+#bank_home_menu_icon{
+  background:url($bank_home_menu_icon);  
+  background-repeat:no-repeat;
+}
+
+#restaurant_home_menu_icon{
+  background:url($restaurant_home_menu_icon);  
+  background-repeat:no-repeat;
+}
+
+#ai1_logo{
+background:url($ai1_logo);
+float: left;width:300px;height:100px;  
+}
+
+.ad_space_1{
+background:url($ad_1);
+width:728px;height:90px;margin:auto;margin-bottom: 20px;float: right;
+}
+
+.ad_space_2{
+background:url($ad_2);
+float:right;
+@include width_for_300_x_250_banner_ad;
+}
+
+.ad_space_3{
+background:url($ad_2);
+float:left;
+@include width_for_300_x_250_banner_ad;
+}
